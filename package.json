@@ -4,7 +4,7 @@
   "description": "A empty startup project using React, Redux, and Webpack",
   "main": "index.js",
   "scripts": {
-	"clean": "rimraf dist",
+    "clean": "rimraf dist",
     "build": "rimraf dist && webpack",
     "serve": "webpack-dev-server -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/cjordanball/React-Redux-Seed#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-preset-stage-1": "^6.24.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
